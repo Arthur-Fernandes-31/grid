@@ -1,11 +1,18 @@
 .grid-container{
     display: grid;
-    background-color: rgb(44, 44, 44);
     grid-template-columns: auto auto auto;
     grid-template-rows: 100px 100px 100px;
     row-gap: 15px;
     column-gap: 10px;
-    border: 10px solid rgb(44, 44, 44);
+    border: 10px;
+}
+.grid-container2{
+    display: grid;
+    grid-template-columns: 430px 430px 430px;
+    grid-template-rows: 100px 100px 100px;
+    row-gap: 15px;
+    column-gap: 10px;
+    border: 10px;
 }
 .grid-item{
     background-color: white;
@@ -16,11 +23,12 @@
 }
 .item2{
     grid-column: 1/4;
-    grid-row: 1/10;
+    grid-row: 1/18;
 }
-footer .grid-item{
-    grid-row: 1/8;
+.fgi{
+    grid-row:1/18;	
 }
+
 header .grid-item{
     background-image: url(https://atarde.com.br/img/Artigo-Destaque/1260000/Novo-Os-Caca-Fantasmas-e-uma-continuacao-aquem-par0126545000202404111052.jpg?xid=6176113);
     background-repeat: no-repeat;
@@ -32,3 +40,22 @@ h1{
     margin-left: -25px;
     color: #2f516c;
 }
+#img1{
+    width: 700px;
+    height: 300px;
+    margin-left: 290px;
+}
+.img2{
+    width: 300px;
+    height: 350px;
+    margin-left: 60px;
+}
+.txt{
+   font-size: 15px;
+   width: 300px;
+   margin-left: 60px;
+}
+h4{
+   margin-left: 60px;
+}
+
