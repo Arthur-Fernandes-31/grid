@@ -3,16 +3,12 @@
     grid-template-columns: auto auto auto;
     grid-template-rows: 100px 100px 100px;
     row-gap: 15px;
-    column-gap: 10px;
-    border: 10px;
 }
 .grid-container2{
     display: grid;
     grid-template-columns: 430px 430px 430px;
     grid-template-rows: 100px 100px 100px;
     row-gap: 15px;
-    column-gap: 10px;
-    border: 10px;
 }
 .grid-item{
     background-color: white;
